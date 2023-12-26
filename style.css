@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.nav {
+    background-color: #666;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px 0px 0px;
+    display: block;
+}
+
+.nav a:hover{
+    color: #aaa;
+}
+
+.hero {
+    background-image: url("https://picsum.photos/1000/300");
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero_msg {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: #666;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 100vh;
+}
+
+/* Contact */
+
+.contact_form {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.form_group label {
+    width: 30%;
+    font-weight: bold;
+    /* font-size: 18px; */
+}
+
+.form_group {
+    /* border-top: 1px solid #ddd; */
+    margin-top: 10px;
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form_group input,
+.form_group textarea{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 60%;
+    font-size: 18px;
+}
+
+.form_group input {
+    height: 40px;
+}
+
+.submit_btn {
+    padding: 5px 15px;
+    background-color: #049dbf;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+    background-color: #0183a0;
+}
