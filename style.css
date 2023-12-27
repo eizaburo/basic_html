@@ -112,3 +112,16 @@ body {
 .submit_btn:hover {
     background-color: #0183a0;
 }
+
+.form_error {
+    padding-left: 30%;
+    width: 60%;
+    font-size: small;
+    color: red;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.hidden{
+    display: none;
+}
